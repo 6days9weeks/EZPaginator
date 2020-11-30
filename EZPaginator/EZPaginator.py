@@ -38,8 +38,8 @@ class Paginator:
         self.use_extend = use_extend
         self.only = only
         self.clear_react = clear_react
-        self.basic_emojis = ["⬅️", "➡️"]
-        self.extended_emojis = ["⏪", "⬅️", "➡️", "⏩"]
+        self.basic_emojis = ["<:before_check:779669831623770132>", "<:next_check:779669444699881472>"]
+        self.extended_emojis = ["<:before_fast:779669326348156959>", "<:before_check:779669831623770132>", "<:next_check:779669444699881472>", "<:next_fast:779669510943932416>"]
 
         # TODO : 이모지 커스텀
         self.index = 0
